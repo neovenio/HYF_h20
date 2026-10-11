@@ -57,7 +57,8 @@ jobs:
 
       - name: Run tests
         run: npm run test:ci
-build:
+        
+  build:
     runs-on: ubuntu-latest
 
     steps:
